@@ -2,7 +2,7 @@ import React from 'react'
 import Button from './Button'
 export default function SecondaryBanner() {
   return (
-    <div className=" SecondaryBanner bg-[url('../public/assets/SecondaryBannerImg.jpeg')] bg-cover bg-center h-[100vh] flex justify-end items-end my-[3rem]">
+    <div className=" SecondaryBanner bg-[url('/assets/SecondaryBannerImg.jpeg')] bg-cover bg-center h-[100vh] flex justify-end items-end my-[3rem]">
            <div className="curved-corner-bottomleft-left"></div>
            <div className="content bg-white px-9 pt-9  rounded-tl-4xl rounded-tr-4xl relative">
               <span className='text-[var(--main-color)] font-semibold text-[1.2rem]'>25% off</span>
