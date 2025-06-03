@@ -31,7 +31,7 @@ export default function App() {
       <Feature />
       <VendorsSection />
       <TestimonialsSection />
-      <div className="blogsSection grid grid-cols-12 gap-[1.3rem] lg:px-[var(--l-px)] md:px-[var(--md-px)] px-[var(--sm-px)] py-[var(--l-py)]">
+      <div className="blogsSection flex flex-wrap gap-[1rem] lg:px-[var(--l-px)] md:px-[var(--md-px)] px-[var(--sm-px)] py-[var(--l-py)]">
         {
           blogs.map((ele, index) => (
                 <BlogCard key={index} blogData={ele} />
