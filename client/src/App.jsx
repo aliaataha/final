@@ -30,7 +30,6 @@ export default function App() {
       <SecondaryBanner />
       <Feature />
       <VendorsSection />
-     
       <TestimonialsSection />
       <div className="blogsSection grid grid-cols-12 gap-[1.3rem] lg:px-[var(--l-px)] md:px-[var(--md-px)] px-[var(--sm-px)] py-[var(--l-py)]">
         {
