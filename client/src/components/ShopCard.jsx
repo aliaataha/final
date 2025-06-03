@@ -10,7 +10,7 @@ export default function ShopCard({numShopCard,color,img}) {
           </div>
           <div className="content col-span-6 relative z-10 pt-6">
               <h3 className='lg:text-[2rem] md:text-[2rem] text-[1rem] font-semibold'>Tasty Snack & Fast food</h3>
-              <p className=' text-[var(--medium-gray)] grid grid-cols-12  lg:text-[1rem] md:text-[1rem] text-[.8rem] py-[1rem] ' style={{ wordSpacing: '0.2rem' ,lineHeight: '2rem' }}><span className='col-span-12'>The flavour of</span> <span className='col-span-12'>something special</span></p>
+              <p className=' text-[var(--medium-gray)] grid grid-cols-12  lg:text-[1rem] md:text-[1rem] text-[.8rem] py-[1rem] ' style={{ wordSpacing: '0.2rem' ,lineHeight: '2rem' }}><span className='lg:col-span-12 md:col-span-12'>The flavour of</span> <span className='lg:col-span-12 md:col-span-12'>something special</span></p>
               <Button/>
           </div>
      </div>
