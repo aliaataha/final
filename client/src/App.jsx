@@ -38,7 +38,7 @@ export default function App() {
           ))
          }
       </div>
-      <div className="instagramImages flex flex-wrap gap-[1.5rem] lg:px-[var(--l-px)]  md:px-[var(--md-px)] px-[var(--sm-px)] py-[var(--l-py)]">
+      <div className="instagramImages flex flex-wrap gap-[1rem] lg:px-[var(--l-px)]  md:px-[var(--md-px)] px-[var(--sm-px)] py-[var(--l-py)]">
         {
           instagramImages.map((ele,index) => (
               <InstagramCard key={index} img={ele} />

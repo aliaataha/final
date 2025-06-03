@@ -7,7 +7,7 @@ export default function VendorsSection() {
     return (
  <div>
 <SectionHeader heading={'Top'} highlight={'vendors'} description={'Discover Our Trusted Partners: Excllence & Reliability in Every choice'} textAlgin={'center'} />   
-<div className='vendors px-[var(--l-px)] grid grid-cols-12 gap-[1.5rem] py-[var(--l-py)]'>
+<div className='vendors px-[var(--sm-px)] grid grid-cols-12 gap-[1.5rem] py-[var(--l-py)]'>
     <div className="img lg:col-span-5 col-span-12 h-[75vh] rounded-2xl rounded-br-none overflow-hidden relative">
                 <img src={vendorsData[active].img} alt="" className='w-full h-full object-cover object-top' />  
                 <div className='bg-white absolute bottom-0 right-0 w-[30%] p-6 pb-0 rounded-tl-4xl'>
