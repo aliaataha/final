@@ -2,7 +2,7 @@ import React from 'react'
 import Button from './Button'
 export default function ShopCard({numShopCard,color,img}) {
   return (
-      <div className={`${numShopCard} lg:col-span-6 col-span-12 grid grid-cols-12  gap-[1.5rem] h-70 rounded-2xl relative overflow-hidden mb-2  `} style={{ backgroundColor: color }} >
+      <div className={`${numShopCard} lg:w-[calc((100%-1rem)/2)] w-[calc((100%)/2)]  h-70 rounded-2xl relative overflow-hidden mb-2  `} style={{ backgroundColor: color }} >
           <div className="left col-span-6 h-70 relative z-10 flex justify-center items-center ">
              <div className="img h-[80%] w-[90%] ">
                  <img  src={`/assets/${img}`} alt="" className="w-full h-full" />
