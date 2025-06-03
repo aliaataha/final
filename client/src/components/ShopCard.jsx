@@ -4,8 +4,8 @@ export default function ShopCard({numShopCard,color,img}) {
   return (
       <div className={`${numShopCard} lg:col-span-6 col-span-12 grid grid-cols-12  gap-[1.5rem] h-70 rounded-2xl relative overflow-hidden mb-2  `} style={{ backgroundColor: color }} >
           <div className="left col-span-6 h-70 relative z-10 flex justify-center items-center ">
-             <div className="img h-[80%] ">
-                 <img  src={`/assets/${img}`} alt="" className="w-full h-full object-cover" />
+             <div className="img h-[80%] w-[90%] ">
+                 <img  src={`/assets/${img}`} alt="" className="w-full h-full" />
              </div>
           </div>
           <div className="content col-span-6 relative z-10 pt-6">
