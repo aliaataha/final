@@ -23,7 +23,7 @@ export default function App() {
            <ProductCard/>
       </div> */}
      
-      <div className="shop-section flex gap-[1rem] lg:px-[var(--l-px)] md:px-[var(--md-px)] px-[var(--sm-px)] py-[var(--l-py)]">
+      <div className="shop-section flex flex-wrap gap-[1rem] lg:px-[var(--l-px)] md:px-[var(--md-px)] px-[var(--sm-px)] py-[var(--l-py)]">
         <ShopCard numShopCard={'first-shop-card'} color={'#fbf2e5'} img={'cardShop1.png'} />
         <ShopCard numShopCard={'second-shop-card'} color={'#ffe8ee'} img={'cardShop2.png'} />
       </div>
