@@ -13,7 +13,7 @@ export default function Category() {
   return (
       <div className='category grid grid-cols-12  px-[var(--l-px)] py-[var(--l-py)] lg:my-[2rem] gap-[2rem] relative lg:h-[80vh] h-[40vh]'>
           <div className="category-img lg:col-span-5 rounded-2xl overflow-hidden lg:block hidden">
-                <img src="../public/assets/category.jpg" alt=""  className='w-full h-full object-cover' />
+                <img src="/assets/category.jpg" alt=""  className='w-full h-full object-cover' />
           </div>
           <div className="lg:col-span-7">
               <h2 className='text-[5rem] lg:block hidden text-white text-shadow-[2px_2px_5px_#777]'>explore categories</h2>
